@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+header {
+    text-align: center;
+}
+
+.choosePokemon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pokemonChooser {
+    text-align: center;
+}
