@@ -24,3 +24,8 @@ header {
 .pokemonChooser {
     text-align: center;
 }
+
+.pokemonBattle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
