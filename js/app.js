@@ -1,3 +1,3 @@
 function selectPokemon(pokemonName) {
-    Cookie.set("chosenPokemonName", pokemonName);
+    Cookies.set("chosenPokemonName", pokemonName);
 }
