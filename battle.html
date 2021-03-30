@@ -10,18 +10,18 @@
 <body>
     <main class="pokemonBattle">
         <div>
-            <h1>Health 100</h1>
-            <img src="img/bulbasaur.png" alt="Bulbasaur">
-            <p>Bulbasaur</p>
-            <a href="#" onclick="">Attack</a>
+            <h1 id="health"></h1>
+            <img id="clickedPokemon">
+            <p id="choosenPokemonName"></p>
+            <a href="#" onclick="attack()">Attack</a>
         </div>
         <div>
-            <h1>Health 100</h1>
+            <h1 id="enemyHealth"></h1>
             <img src="img/geodude.png" alt="Geodude">
             <p>Geodude</p>
         </div>
     </main>
-
+    <div id="victoryText" class="invisible"></div>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="/js/battle.js"></script>
 </body>

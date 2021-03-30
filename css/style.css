@@ -35,4 +35,17 @@ header {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
 }
+
+#victoryText {
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.invisible {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
